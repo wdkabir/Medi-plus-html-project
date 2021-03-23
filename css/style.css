@@ -1,0 +1,485 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+.main{}
+.header{
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.topheader{
+    display: inline-flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 200px;
+    
+}
+.logo h1{
+    margin: 10px;
+    font-size: 50px;
+    color: #e20000;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.nav{
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 350px;
+}
+.nav ul{
+    margin-top: 20px;
+}
+.nav ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #9e9e5d;
+    font-family: arial;
+    font-weight: 600;
+    text-shadow: 0px 0px 4px white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav ul li a:hover{
+    color: red;
+    text-shadow: 0px 0px 2px black;
+}
+.headertext{
+    text-align: center;
+    background: #d6d5d5d6;
+    width: 50%;
+    margin-left: 320px;
+    margin-top: 80px;
+    padding: 100px 25px;
+    border: 15px solid #ffffffb8;
+    box-shadow: 0px 0px 5px black;
+}
+.headertext h1{
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text1{
+    width: 89%;
+    font-size: 17px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.4;
+    color: #0000008c;
+}
+.text2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text3{
+    font-size: 25px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+.content{
+    display: inline-flex;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin: 90px;
+}
+.contentleft{}
+.contentleft img{
+    width: 500px;
+    height: 315px;
+}
+.contentright{
+    margin: 0px 30px;
+}
+.contentright h1{
+    font-size: 32px;
+    
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+}
+.contentright p{
+    text-align: justify;
+    width: 98%;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0000008c;
+}
+.contentright button{
+    background: none;
+    border: 1px solid #C5C5B9;
+    padding: 10px 30px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0000008c;
+}
+.contentright button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.content1{
+    background-image: url(../image/image.jpg);
+    display: inline-flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    background-attachment: fixed;
+}
+.maincard{
+    margin-left: 235px;
+}
+.card{
+    
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 10px solid white;
+    margin-right: 50px;
+    border-radius: 100%;
+    border-left-color: red;
+    border-top-color: red;
+    box-shadow: 0px 0px 15px black;
+}
+.card h1{
+    font-size: 45px;
+    margin-top: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.card p{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e9e207;
+    text-shadow: 0px 0px 10px black;
+}
+
+.content2{
+    
+    padding: 20px 0px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+.part1{}
+.part1 h1{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.part1 p{
+    width: 54%;
+    text-align: center;
+    margin-left: 340px;
+    padding: 20px 0px;
+    line-height: 1.4;
+    color: #767070;
+}
+.part2{
+    display: inline-flex;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.parttext{
+    width: 380px;
+    margin-right: 20px;
+}
+.parttext h2{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.parttext p{
+    line-height: 1.3;
+    color: #767070;
+}
+.footer{
+    background: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 349px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{}
+    .header{
+        background-image: url(../image/banner.jpg);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    display: inline-block;
+    
+    }
+    .topheader{
+        
+        width: 100%;
+    }
+    .logo{
+        margin: 5px 10px;
+        
+    }
+    .logo h1{
+        font-size: 50px;
+        color: #e20000;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        margin-left: 37px;
+    }
+    .nav{
+
+        
+        
+        display: none;
+    }
+    .nav ul{
+       
+    }
+    .nav ul li{
+        
+    }
+    .nav ul li a{
+       
+    }
+    .nav ul li a:hover{
+        
+    }
+    .headertext{
+        text-align: center;
+        background: #d6d5d5d6;
+        width: 222px;
+        height: 222px;
+        border: 15px solid #ffffffb8;
+        box-shadow: 0px 0px 5px black;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .headertext h1{
+        font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -65px;
+    }
+    .text1{
+        width: 100%;
+    font-size: 17px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.3;
+    color: #0000008c;
+    text-align: justify;
+    }
+    .text2{
+        font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    .text3{
+        font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    .content{
+        width: 320px;
+        margin-left: 80px;
+        margin-top: 16px;
+       
+        
+    }
+    .contentleft{
+        width: 320px;
+    }
+    .contentleft img{
+        width: 300px;
+        height: 250px;
+        display: inline-block;
+        margin-left: -70px;
+        margin-top: -195px;
+    }
+    .contentright{
+        width: 100%;
+    display: inline-block;
+    margin-left: -410px;
+    padding: 70px;
+    margin-top: 65px;
+    }
+    .contentright h1{
+        font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+    
+    width: 100%;
+   
+    }
+    .contentright p{
+        text-align: justify;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 1.8;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #0000008c;
+        display: inline-block;
+    }
+    .contentright button{
+        background: none;
+        border: 1px solid #C5C5B9;
+        padding: 10px 30px;
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        outline: none;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #0000008c;
+        margin-left: 60px;
+        display: inline-block;
+    }
+    .contentright button:hover{
+        background-color: red;
+        color: white;
+    }
+    
+    
+    .content1{
+        background-image: url(../image/image.jpg);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: inherit;
+    padding: 80px 0px;
+    background-attachment: inherit;
+    display: inline-flex;
+    position: absolute;
+    margin-top: -115px;
+    }
+    .maincard{
+        margin-left: 0px;
+    display: inline-block;
+    }
+    .card{
+        
+        margin-left: 5px;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        border: 5px solid white;
+        margin-right: 5px;
+        border-radius: 100%;
+        border-left-color: red;
+        border-top-color: red;
+        box-shadow: 0px 0px 15px black;
+        margin-top: -40px;
+    }
+    .card h1{
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+    }
+    .card p{
+        font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e9e207;
+    text-shadow: 0px 0px 10px black
+    }
+    
+    .content2{
+        
+        width: 320px;
+        
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .part1{
+        width: 100%;
+    display: block;
+    }
+    .part1 h1{
+        font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    }
+    .part1 p{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        line-height: 1.4;
+        color: #767070;
+        margin-left: 0px;
+    }
+    .part2{
+        width: 100%;
+        
+        margin-top: 30px;
+    }
+    .parttext{
+        width: 100%;
+        
+    }
+    .parttext h2{
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .parttext p{
+        line-height: 1.3;
+        color: #767070;
+    }
+    .footer{
+        background: black;
+        color: white;
+        margin-top: 100px;
+    }
+    
+    .footer h1{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+}
